@@ -6,6 +6,8 @@ ruby '3.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
 # Use sqlite3 as the database for Active Record
+# Bcrypt para encriptar los passwords
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -65,3 +67,4 @@ gem 'rexml', '~> 3.2', '>= 3.2.5'
 # Bootstrap
 gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 gem 'jquery-rails' # jquery asociado a Bootstrap
+
