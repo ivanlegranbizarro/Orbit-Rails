@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+$light-gray: #777;
+
+footer {
+    margin-top: 90px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: $light-gray;
+}
+
+footer a {
+    color: #555;
+    &:hover {
+        color: #222;
+        text-decoration: none;
+    }
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+    li {
+        float: left;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+

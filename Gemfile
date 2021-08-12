@@ -61,3 +61,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Solución al problema de los test
 gem 'rexml', '~> 3.2', '>= 3.2.5'
+
+# Bootstrap
+gem 'bootstrap', '~> 5.0', '>= 5.0.1'
+gem 'jquery-rails' # jquery asociado a Bootstrap
